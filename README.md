@@ -99,4 +99,12 @@ another line
 [Яндекс](https://www.yandex.ru "Я Yandex")
 
 
-Это лишь некоторые функции mardown.
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
+
